@@ -1,0 +1,63 @@
+/* Bootstrap CORE CSS CDN  */
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css");
+	
+/* Custom Fonts */ 
+    /*Fontawesome Fonts --version: "5.13.0"  */
+   @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
+	
+    /* Google Fonts   */
+	@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"); 
+	@import url ("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap"); 
+	@import url("https://fonts.googleapis.com/css?family=Lobster&display=swap");  
+
+html, body{
+  height: 100%;
+  width: 100%;
+}
+.navbar {
+	/* background-color: transparent !important;
+	use javascript to fade in&out after a certain amount of pixels as been scrolled(as the page begins to leave the landing page)  */
+    text-transform: uppercase; /* replaces .text-uppercase in navbar in the html */	
+}
+nav button {
+	font-weight: bold;  /* replaces .font-weight-bold in navbar for collapsed menu button in the html*/
+	text-transform: uppercase; 
+}
+nav .navbar-brand{
+	font-weight: 300;
+	font-size: 1.6em;
+}
+.navbar.navbar-scroll {
+	background-color: transparent !important;
+}
+.masthead {
+	background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url(../img/background.jpg);
+	padding: 3.8%; 
+	background-position: center center;
+	background-repeat: no-repeat;  
+	background-size: cover;
+}
+.masthead h1 {
+	font-family: lobster;
+	font-size: 8em;  /* replacing .diplay-2*/
+}
+h1,h2,h3,h4,h5{
+	color: red;
+}
+h2 {
+		font-size: 4rem;  /* replacing .diplay-3 and .diplay-4*/
+		text-transform: uppercase; /* replacing .text-uppercase */
+}
+h5 {
+	font-size: 3rem;
+}
+#about, #projects {
+	min-height: 35rem;  /* replacing .h-100 (bootstrap) */
+}
+.content-section {
+	padding: 4rem;  /* replacing .p-5 (bootstrap) in the html */
+}
+.projects-item:hover, .projects-item:focus, .projects-item:active {
+	opacity: 0.4;
+	cursor: pointer;
+}
