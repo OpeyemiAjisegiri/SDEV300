@@ -1,0 +1,359 @@
+2021-07-13 20:03:23,143 INFO lab8_ajisegiri_opeyemi Thread-3 : Registration page rendered
+2021-07-13 20:03:23,154 INFO werkzeug Thread-3 : 127.0.0.1 - - [13/Jul/2021 20:03:23] "GET /register HTTP/1.1" 200 -
+2021-07-13 20:03:23,483 INFO werkzeug Thread-4 : 127.0.0.1 - - [13/Jul/2021 20:03:23] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-13 20:03:54,472 INFO werkzeug Thread-5 : 127.0.0.1 - - [13/Jul/2021 20:03:54] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-07-13 20:06:36,049 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\opy_A\\AppData\\Local\\Programs\\Python\\Python39\\lab8_ajisegiri_opeyemi\\lab8_ajisegiri_opeyemi.py', reloading
+2021-07-13 20:06:36,146 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-13 20:07:21,908 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-13 20:08:04,268 INFO lab8_ajisegiri_opeyemi Thread-3 : Registration page rendered
+2021-07-13 20:08:04,275 INFO werkzeug Thread-3 : 127.0.0.1 - - [13/Jul/2021 20:08:04] "GET /register HTTP/1.1" 200 -
+2021-07-13 20:08:04,597 INFO werkzeug Thread-4 : 127.0.0.1 - - [13/Jul/2021 20:08:04] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-13 20:08:36,028 INFO werkzeug Thread-5 : 127.0.0.1 - - [13/Jul/2021 20:08:36] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-07-13 20:28:59,549 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-13 20:29:08,128 INFO lab8_ajisegiri_opeyemi Thread-3 : Registration page rendered
+2021-07-13 20:29:08,137 INFO werkzeug Thread-3 : 127.0.0.1 - - [13/Jul/2021 20:29:08] "POST /register HTTP/1.1" 200 -
+2021-07-13 20:29:08,476 INFO werkzeug Thread-4 : 127.0.0.1 - - [13/Jul/2021 20:29:08] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-13 20:29:29,531 INFO lab8_ajisegiri_opeyemi Thread-5 : Registration page rendered
+2021-07-13 20:29:29,533 INFO werkzeug Thread-5 : 127.0.0.1 - - [13/Jul/2021 20:29:29] "POST /register HTTP/1.1" 200 -
+2021-07-13 20:29:29,591 INFO werkzeug Thread-6 : 127.0.0.1 - - [13/Jul/2021 20:29:29] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-13 20:30:03,228 INFO lab8_ajisegiri_opeyemi Thread-7 : Landing page rendered
+2021-07-13 20:30:03,233 INFO werkzeug Thread-7 : 127.0.0.1 - - [13/Jul/2021 20:30:03] "[32mPOST /register HTTP/1.1[0m" 302 -
+2021-07-13 20:30:03,239 INFO lab8_ajisegiri_opeyemi Thread-8 : Blogging page rendered
+2021-07-13 20:30:03,241 INFO werkzeug Thread-8 : 127.0.0.1 - - [13/Jul/2021 20:30:03] "GET /blogging?name=MARK HTTP/1.1" 200 -
+2021-07-13 20:30:03,285 INFO werkzeug Thread-9 : 127.0.0.1 - - [13/Jul/2021 20:30:03] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-13 20:30:17,198 INFO lab8_ajisegiri_opeyemi Thread-10 : Password Update page rendered
+2021-07-13 20:30:17,209 INFO werkzeug Thread-10 : 127.0.0.1 - - [13/Jul/2021 20:30:17] "GET /update HTTP/1.1" 200 -
+2021-07-13 20:30:17,269 INFO werkzeug Thread-11 : 127.0.0.1 - - [13/Jul/2021 20:30:17] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-13 20:30:39,813 INFO lab8_ajisegiri_opeyemi Thread-12 : Blogging page rendered
+2021-07-13 20:30:39,815 INFO werkzeug Thread-12 : 127.0.0.1 - - [13/Jul/2021 20:30:39] "[32mPOST /update HTTP/1.1[0m" 302 -
+2021-07-13 20:30:39,823 INFO lab8_ajisegiri_opeyemi Thread-13 : Blogging page rendered
+2021-07-13 20:30:39,824 INFO werkzeug Thread-13 : 127.0.0.1 - - [13/Jul/2021 20:30:39] "GET /blogging?name=MARK HTTP/1.1" 200 -
+2021-07-13 20:30:39,874 INFO werkzeug Thread-14 : 127.0.0.1 - - [13/Jul/2021 20:30:39] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-13 20:33:43,489 INFO lab8_ajisegiri_opeyemi Thread-15 : Signed out
+2021-07-13 20:33:43,490 INFO werkzeug Thread-15 : 127.0.0.1 - - [13/Jul/2021 20:33:43] "[32mGET /sign_out HTTP/1.1[0m" 302 -
+2021-07-13 20:33:43,498 INFO lab8_ajisegiri_opeyemi Thread-16 : Index Page rendered
+2021-07-13 20:33:43,503 INFO werkzeug Thread-16 : 127.0.0.1 - - [13/Jul/2021 20:33:43] "GET / HTTP/1.1" 200 -
+2021-07-13 20:33:43,573 INFO werkzeug Thread-17 : 127.0.0.1 - - [13/Jul/2021 20:33:43] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-13 20:33:43,619 INFO werkzeug Thread-18 : 127.0.0.1 - - [13/Jul/2021 20:33:43] "[36mGET /static/img/background.jpg HTTP/1.1[0m" 304 -
+2021-07-13 20:33:44,960 WARNING lab8_ajisegiri_opeyemi Thread-19 : Blogging page attempt without valid credentials
+2021-07-13 20:33:44,966 INFO werkzeug Thread-19 : 127.0.0.1 - - [13/Jul/2021 20:33:44] "[32mGET /blogging?name=MARK HTTP/1.1[0m" 302 -
+2021-07-13 20:40:52,127 INFO werkzeug Thread-21 : 127.0.0.1 - - [13/Jul/2021 20:40:52] "[32mGET /update HTTP/1.1[0m" 302 -
+2021-07-13 20:41:00,299 INFO lab8_ajisegiri_opeyemi Thread-22 : Index Page rendered
+2021-07-13 20:41:00,301 INFO werkzeug Thread-22 : 127.0.0.1 - - [13/Jul/2021 20:41:00] "GET / HTTP/1.1" 200 -
+2021-07-13 20:41:00,345 INFO werkzeug Thread-23 : 127.0.0.1 - - [13/Jul/2021 20:41:00] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-13 20:41:00,406 INFO werkzeug Thread-24 : 127.0.0.1 - - [13/Jul/2021 20:41:00] "[36mGET /static/img/background.jpg HTTP/1.1[0m" 304 -
+2021-07-13 20:45:03,291 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\opy_A\\AppData\\Local\\Programs\\Python\\Python39\\lab8_ajisegiri_opeyemi\\lab8_ajisegiri_opeyemi.py', reloading
+2021-07-13 20:45:03,416 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-13 20:45:26,391 INFO werkzeug Thread-3 : 127.0.0.1 - - [13/Jul/2021 20:45:26] "GET / HTTP/1.1" 200 -
+2021-07-13 20:45:27,057 INFO werkzeug Thread-4 : 127.0.0.1 - - [13/Jul/2021 20:45:27] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-13 20:45:27,127 INFO werkzeug Thread-5 : 127.0.0.1 - - [13/Jul/2021 20:45:27] "[36mGET /static/img/background.jpg HTTP/1.1[0m" 304 -
+2021-07-13 20:45:43,086 INFO lab8_ajisegiri_opeyemi Thread-7 : Log in page rendered
+2021-07-13 20:45:43,109 INFO werkzeug Thread-7 : 127.0.0.1 - - [13/Jul/2021 20:45:43] "GET /login HTTP/1.1" 200 -
+2021-07-13 20:45:43,160 INFO werkzeug Thread-6 : 127.0.0.1 - - [13/Jul/2021 20:45:43] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-13 21:56:27,485 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\opy_A\\AppData\\Local\\Programs\\Python\\Python39\\lab8_ajisegiri_opeyemi\\lab8_ajisegiri_opeyemi.py', reloading
+2021-07-13 21:56:27,594 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-13 21:56:45,463 INFO werkzeug Thread-3 : 127.0.0.1 - - [13/Jul/2021 21:56:45] "GET / HTTP/1.1" 200 -
+2021-07-13 21:56:46,001 INFO werkzeug Thread-4 : 127.0.0.1 - - [13/Jul/2021 21:56:46] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-13 21:56:46,036 INFO werkzeug Thread-5 : 127.0.0.1 - - [13/Jul/2021 21:56:46] "[36mGET /static/img/background.jpg HTTP/1.1[0m" 304 -
+2021-07-13 21:56:47,339 INFO werkzeug Thread-6 : 127.0.0.1 - - [13/Jul/2021 21:56:47] "GET /login HTTP/1.1" 200 -
+2021-07-13 21:56:47,424 INFO werkzeug Thread-7 : 127.0.0.1 - - [13/Jul/2021 21:56:47] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-13 21:57:15,963 INFO werkzeug Thread-8 : 127.0.0.1 - - [13/Jul/2021 21:57:15] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2021-07-13 21:59:52,058 INFO werkzeug Thread-15 : 127.0.0.1 - - [13/Jul/2021 21:59:52] "GET / HTTP/1.1" 200 -
+2021-07-13 21:59:52,110 INFO werkzeug Thread-14 : 127.0.0.1 - - [13/Jul/2021 21:59:52] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-13 21:59:52,168 INFO werkzeug Thread-16 : 127.0.0.1 - - [13/Jul/2021 21:59:52] "[36mGET /static/img/background.jpg HTTP/1.1[0m" 304 -
+2021-07-13 21:59:54,727 INFO werkzeug Thread-17 : 127.0.0.1 - - [13/Jul/2021 21:59:54] "GET / HTTP/1.1" 200 -
+2021-07-13 21:59:54,764 INFO werkzeug Thread-18 : 127.0.0.1 - - [13/Jul/2021 21:59:54] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-13 21:59:54,909 INFO werkzeug Thread-19 : 127.0.0.1 - - [13/Jul/2021 21:59:54] "[36mGET /static/img/background.jpg HTTP/1.1[0m" 304 -
+2021-07-13 21:59:57,216 INFO werkzeug Thread-20 : 127.0.0.1 - - [13/Jul/2021 21:59:57] "GET / HTTP/1.1" 200 -
+2021-07-13 21:59:57,249 INFO werkzeug Thread-21 : 127.0.0.1 - - [13/Jul/2021 21:59:57] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-13 21:59:57,297 INFO werkzeug Thread-22 : 127.0.0.1 - - [13/Jul/2021 21:59:57] "[36mGET /static/img/background.jpg HTTP/1.1[0m" 304 -
+2021-07-13 22:00:00,228 INFO werkzeug Thread-23 : 127.0.0.1 - - [13/Jul/2021 22:00:00] "GET /register HTTP/1.1" 200 -
+2021-07-13 22:00:00,392 INFO werkzeug Thread-24 : 127.0.0.1 - - [13/Jul/2021 22:00:00] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-13 22:00:51,223 INFO werkzeug Thread-25 : 127.0.0.1 - - [13/Jul/2021 22:00:51] "POST /register HTTP/1.1" 200 -
+2021-07-13 22:00:51,290 INFO werkzeug Thread-26 : 127.0.0.1 - - [13/Jul/2021 22:00:51] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-13 22:01:18,910 INFO werkzeug Thread-27 : 127.0.0.1 - - [13/Jul/2021 22:01:18] "[32mPOST /register HTTP/1.1[0m" 302 -
+2021-07-13 22:01:18,955 INFO werkzeug Thread-28 : 127.0.0.1 - - [13/Jul/2021 22:01:18] "GET /blogging?name=Randy HTTP/1.1" 200 -
+2021-07-13 22:01:19,016 INFO werkzeug Thread-29 : 127.0.0.1 - - [13/Jul/2021 22:01:19] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-13 22:01:30,127 INFO lab8_ajisegiri_opeyemi Thread-30 : Password Update page rendered
+2021-07-13 22:01:30,175 INFO werkzeug Thread-30 : 127.0.0.1 - - [13/Jul/2021 22:01:30] "GET /update HTTP/1.1" 200 -
+2021-07-13 22:01:30,253 INFO werkzeug Thread-31 : 127.0.0.1 - - [13/Jul/2021 22:01:30] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-13 22:01:37,858 INFO werkzeug Thread-32 : 127.0.0.1 - - [13/Jul/2021 22:01:37] "[35m[1mPOST /update HTTP/1.1[0m" 500 -
+2021-07-13 22:03:00,542 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\opy_A\\AppData\\Local\\Programs\\Python\\Python39\\lab8_ajisegiri_opeyemi\\lab8_ajisegiri_opeyemi.py', reloading
+2021-07-13 22:03:00,643 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-13 22:03:25,535 WARNING lab8_ajisegiri_opeyemi Thread-3 : Update action attempt without valid credentials
+2021-07-13 22:03:25,537 INFO werkzeug Thread-3 : 127.0.0.1 - - [13/Jul/2021 22:03:25] "[32mGET /update HTTP/1.1[0m" 302 -
+2021-07-13 22:03:25,550 INFO werkzeug Thread-4 : 127.0.0.1 - - [13/Jul/2021 22:03:25] "GET /login HTTP/1.1" 200 -
+2021-07-13 22:03:25,986 INFO werkzeug Thread-5 : 127.0.0.1 - - [13/Jul/2021 22:03:25] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-13 22:03:29,461 INFO werkzeug Thread-6 : 127.0.0.1 - - [13/Jul/2021 22:03:29] "GET / HTTP/1.1" 200 -
+2021-07-13 22:03:29,505 INFO werkzeug Thread-7 : 127.0.0.1 - - [13/Jul/2021 22:03:29] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-13 22:03:29,567 INFO werkzeug Thread-8 : 127.0.0.1 - - [13/Jul/2021 22:03:29] "[36mGET /static/img/background.jpg HTTP/1.1[0m" 304 -
+2021-07-13 22:03:34,765 INFO werkzeug Thread-9 : 127.0.0.1 - - [13/Jul/2021 22:03:34] "GET /login HTTP/1.1" 200 -
+2021-07-13 22:03:34,828 INFO werkzeug Thread-10 : 127.0.0.1 - - [13/Jul/2021 22:03:34] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-13 22:03:40,342 INFO werkzeug Thread-12 : 127.0.0.1 - - [13/Jul/2021 22:03:40] "GET /register HTTP/1.1" 200 -
+2021-07-13 22:03:40,385 INFO werkzeug Thread-11 : 127.0.0.1 - - [13/Jul/2021 22:03:40] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-13 22:05:10,720 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\opy_A\\AppData\\Local\\Programs\\Python\\Python39\\lab8_ajisegiri_opeyemi\\lab8_ajisegiri_opeyemi.py', reloading
+2021-07-13 22:05:10,820 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-13 22:05:21,710 INFO werkzeug Thread-3 : 127.0.0.1 - - [13/Jul/2021 22:05:21] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-07-13 22:05:29,852 INFO werkzeug Thread-9 :  * To enable the debugger you need to enter the security pin:
+2021-07-13 22:05:29,852 INFO werkzeug Thread-9 :  * Debugger pin code: 131-763-843
+2021-07-13 22:05:58,743 INFO werkzeug Thread-12 : 127.0.0.1 - - [13/Jul/2021 22:05:58] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-13 22:10:29,072 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\opy_A\\AppData\\Local\\Programs\\Python\\Python39\\lab8_ajisegiri_opeyemi\\lab8_ajisegiri_opeyemi.py', reloading
+2021-07-13 22:10:29,182 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-13 22:10:41,043 INFO werkzeug Thread-4 : 127.0.0.1 - - [13/Jul/2021 22:10:41] "GET /register HTTP/1.1" 200 -
+2021-07-13 22:10:41,374 INFO werkzeug Thread-3 : 127.0.0.1 - - [13/Jul/2021 22:10:41] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-13 22:11:04,969 INFO werkzeug Thread-5 : 127.0.0.1 - - [13/Jul/2021 22:11:04] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-07-13 22:13:25,809 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-13 22:13:37,576 INFO werkzeug Thread-4 : 127.0.0.1 - - [13/Jul/2021 22:13:37] "GET / HTTP/1.1" 200 -
+2021-07-13 22:13:37,988 INFO werkzeug Thread-3 : 127.0.0.1 - - [13/Jul/2021 22:13:37] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-13 22:13:38,023 INFO werkzeug Thread-5 : 127.0.0.1 - - [13/Jul/2021 22:13:38] "[36mGET /static/img/background.jpg HTTP/1.1[0m" 304 -
+2021-07-13 22:13:41,205 INFO werkzeug Thread-7 : 127.0.0.1 - - [13/Jul/2021 22:13:41] "GET /register HTTP/1.1" 200 -
+2021-07-13 22:13:41,266 INFO werkzeug Thread-6 : 127.0.0.1 - - [13/Jul/2021 22:13:41] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-13 22:15:17,742 INFO werkzeug Thread-8 : 127.0.0.1 - - [13/Jul/2021 22:15:17] "GET /register HTTP/1.1" 200 -
+2021-07-13 22:15:17,781 INFO werkzeug Thread-9 : 127.0.0.1 - - [13/Jul/2021 22:15:17] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-13 22:15:26,486 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-13 22:15:30,950 INFO werkzeug Thread-3 : 127.0.0.1 - - [13/Jul/2021 22:15:30] "GET /register HTTP/1.1" 200 -
+2021-07-13 22:15:31,265 INFO werkzeug Thread-4 : 127.0.0.1 - - [13/Jul/2021 22:15:31] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-13 22:15:32,720 INFO werkzeug Thread-5 : 127.0.0.1 - - [13/Jul/2021 22:15:32] "GET /register HTTP/1.1" 200 -
+2021-07-13 22:15:32,754 INFO werkzeug Thread-6 : 127.0.0.1 - - [13/Jul/2021 22:15:32] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-13 22:15:35,002 INFO werkzeug Thread-7 : 127.0.0.1 - - [13/Jul/2021 22:15:35] "GET /register HTTP/1.1" 200 -
+2021-07-13 22:15:35,040 INFO werkzeug Thread-8 : 127.0.0.1 - - [13/Jul/2021 22:15:35] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-13 22:16:32,626 INFO werkzeug Thread-10 : 127.0.0.1 - - [13/Jul/2021 22:16:32] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-07-13 23:07:56,250 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-13 23:08:11,378 INFO werkzeug Thread-4 : 127.0.0.1 - - [13/Jul/2021 23:08:11] "GET /register HTTP/1.1" 200 -
+2021-07-13 23:08:11,833 INFO werkzeug Thread-3 : 127.0.0.1 - - [13/Jul/2021 23:08:11] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-13 23:08:38,985 INFO werkzeug Thread-5 : 127.0.0.1 - - [13/Jul/2021 23:08:38] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-07-13 23:14:32,632 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\opy_A\\AppData\\Local\\Programs\\Python\\Python39\\lab8_ajisegiri_opeyemi\\lab8_ajisegiri_opeyemi.py', reloading
+2021-07-13 23:14:32,742 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-13 23:14:49,367 INFO werkzeug Thread-3 : 127.0.0.1 - - [13/Jul/2021 23:14:49] "[32mPOST /register HTTP/1.1[0m" 302 -
+2021-07-13 23:14:49,419 INFO werkzeug Thread-4 : 127.0.0.1 - - [13/Jul/2021 23:14:49] "GET /blogging?name=Some HTTP/1.1" 200 -
+2021-07-13 23:14:49,875 INFO werkzeug Thread-5 : 127.0.0.1 - - [13/Jul/2021 23:14:49] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-14 00:08:59,870 INFO lab8_ajisegiri_opeyemi Thread-7 : Password Update page rendered
+2021-07-14 00:08:59,912 INFO werkzeug Thread-7 : 127.0.0.1 - - [14/Jul/2021 00:08:59] "GET /update HTTP/1.1" 200 -
+2021-07-14 00:09:00,007 INFO werkzeug Thread-6 : 127.0.0.1 - - [14/Jul/2021 00:09:00] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-14 00:09:10,096 INFO werkzeug Thread-9 : 127.0.0.1 - - [14/Jul/2021 00:09:10] "GET /blogging?name=Some HTTP/1.1" 200 -
+2021-07-14 00:09:11,936 INFO lab8_ajisegiri_opeyemi Thread-8 : Password Update page rendered
+2021-07-14 00:09:11,937 INFO werkzeug Thread-8 : 127.0.0.1 - - [14/Jul/2021 00:09:11] "GET /update HTTP/1.1" 200 -
+2021-07-14 00:09:32,680 INFO werkzeug Thread-10 : 127.0.0.1 - - [14/Jul/2021 00:09:32] "[32mPOST /update HTTP/1.1[0m" 302 -
+2021-07-14 00:09:32,696 INFO werkzeug Thread-11 : 127.0.0.1 - - [14/Jul/2021 00:09:32] "GET /blogging?name=Some HTTP/1.1" 200 -
+2021-07-14 00:09:32,819 INFO werkzeug Thread-12 : 127.0.0.1 - - [14/Jul/2021 00:09:32] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-14 00:11:27,686 INFO lab8_ajisegiri_opeyemi Thread-13 : Password Update page rendered
+2021-07-14 00:11:27,688 INFO werkzeug Thread-13 : 127.0.0.1 - - [14/Jul/2021 00:11:27] "GET /update HTTP/1.1" 200 -
+2021-07-14 00:11:27,912 INFO werkzeug Thread-14 : 127.0.0.1 - - [14/Jul/2021 00:11:27] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-14 00:11:37,168 INFO werkzeug Thread-15 : 127.0.0.1 - - [14/Jul/2021 00:11:37] "[32mPOST /update HTTP/1.1[0m" 302 -
+2021-07-14 00:11:37,177 INFO werkzeug Thread-16 : 127.0.0.1 - - [14/Jul/2021 00:11:37] "GET /blogging?name=Some HTTP/1.1" 200 -
+2021-07-14 00:11:37,411 INFO werkzeug Thread-17 : 127.0.0.1 - - [14/Jul/2021 00:11:37] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-14 00:11:54,596 INFO lab8_ajisegiri_opeyemi Thread-18 : Password Update page rendered
+2021-07-14 00:11:54,599 INFO werkzeug Thread-18 : 127.0.0.1 - - [14/Jul/2021 00:11:54] "GET /update HTTP/1.1" 200 -
+2021-07-14 00:11:54,770 INFO werkzeug Thread-19 : 127.0.0.1 - - [14/Jul/2021 00:11:54] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-14 00:12:03,276 INFO werkzeug Thread-20 : 127.0.0.1 - - [14/Jul/2021 00:12:03] "[32mPOST /update HTTP/1.1[0m" 302 -
+2021-07-14 00:12:03,284 INFO werkzeug Thread-21 : 127.0.0.1 - - [14/Jul/2021 00:12:03] "GET /blogging?name=Some HTTP/1.1" 200 -
+2021-07-14 00:12:03,570 INFO werkzeug Thread-22 : 127.0.0.1 - - [14/Jul/2021 00:12:03] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-14 00:17:04,929 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\opy_A\\AppData\\Local\\Programs\\Python\\Python39\\lab8_ajisegiri_opeyemi\\lab8_ajisegiri_opeyemi.py', reloading
+2021-07-14 00:17:05,390 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-14 00:17:10,514 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-14 00:17:12,617 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\opy_A\\AppData\\Local\\Programs\\Python\\Python39\\lab8_ajisegiri_opeyemi\\lab8_ajisegiri_opeyemi.py', reloading
+2021-07-14 00:17:12,713 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-14 00:17:14,489 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-14 00:17:25,369 WARNING lab8_ajisegiri_opeyemi Thread-4 : Blogging page attempt without valid credentials
+2021-07-14 00:17:25,369 INFO werkzeug Thread-4 : 127.0.0.1 - - [14/Jul/2021 00:17:25] "[32mGET /blogging?name=Some HTTP/1.1[0m" 302 -
+2021-07-14 00:17:25,431 INFO werkzeug Thread-3 : 127.0.0.1 - - [14/Jul/2021 00:17:25] "GET /login HTTP/1.1" 200 -
+2021-07-14 00:17:26,003 INFO werkzeug Thread-5 : 127.0.0.1 - - [14/Jul/2021 00:17:26] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-14 00:17:43,324 WARNING lab8_ajisegiri_opeyemi Thread-6 : Update action attempt without valid credentials
+2021-07-14 00:17:43,329 INFO werkzeug Thread-6 : 127.0.0.1 - - [14/Jul/2021 00:17:43] "[32mGET /update HTTP/1.1[0m" 302 -
+2021-07-14 00:17:43,351 INFO werkzeug Thread-7 : 127.0.0.1 - - [14/Jul/2021 00:17:43] "GET /login HTTP/1.1" 200 -
+2021-07-14 00:17:43,427 INFO werkzeug Thread-8 : 127.0.0.1 - - [14/Jul/2021 00:17:43] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-14 00:17:53,025 WARNING lab8_ajisegiri_opeyemi Thread-9 : Update action attempt without valid credentials
+2021-07-14 00:17:53,028 INFO werkzeug Thread-9 : 127.0.0.1 - - [14/Jul/2021 00:17:53] "[32mGET /update HTTP/1.1[0m" 302 -
+2021-07-14 00:17:53,037 INFO werkzeug Thread-10 : 127.0.0.1 - - [14/Jul/2021 00:17:53] "GET /login HTTP/1.1" 200 -
+2021-07-14 00:17:53,114 INFO werkzeug Thread-11 : 127.0.0.1 - - [14/Jul/2021 00:17:53] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-14 00:19:54,511 INFO werkzeug Thread-12 : 127.0.0.1 - - [14/Jul/2021 00:19:54] "GET /register HTTP/1.1" 200 -
+2021-07-14 00:19:54,604 INFO werkzeug Thread-13 : 127.0.0.1 - - [14/Jul/2021 00:19:54] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-14 00:20:27,835 INFO werkzeug Thread-14 : 127.0.0.1 - - [14/Jul/2021 00:20:27] "[32mPOST /register HTTP/1.1[0m" 302 -
+2021-07-14 00:20:27,970 INFO werkzeug Thread-15 : 127.0.0.1 - - [14/Jul/2021 00:20:27] "GET /blogging?name=Chris HTTP/1.1" 200 -
+2021-07-14 00:20:28,036 INFO werkzeug Thread-16 : 127.0.0.1 - - [14/Jul/2021 00:20:28] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-14 00:20:32,012 INFO lab8_ajisegiri_opeyemi Thread-17 : Password Update page rendered
+2021-07-14 00:20:32,020 INFO werkzeug Thread-17 : 127.0.0.1 - - [14/Jul/2021 00:20:32] "GET /update HTTP/1.1" 200 -
+2021-07-14 00:20:32,244 INFO werkzeug Thread-18 : 127.0.0.1 - - [14/Jul/2021 00:20:32] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-14 00:20:46,230 INFO werkzeug Thread-19 : 127.0.0.1 - - [14/Jul/2021 00:20:46] "[32mPOST /update HTTP/1.1[0m" 302 -
+2021-07-14 00:20:46,258 INFO werkzeug Thread-20 : 127.0.0.1 - - [14/Jul/2021 00:20:46] "GET /blogging?name=Chris HTTP/1.1" 200 -
+2021-07-14 00:20:46,308 INFO werkzeug Thread-21 : 127.0.0.1 - - [14/Jul/2021 00:20:46] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-14 00:21:22,686 INFO lab8_ajisegiri_opeyemi Thread-23 : Password Update page rendered
+2021-07-14 00:21:22,688 INFO werkzeug Thread-23 : 127.0.0.1 - - [14/Jul/2021 00:21:22] "GET /update HTTP/1.1" 200 -
+2021-07-14 00:21:22,754 INFO werkzeug Thread-22 : 127.0.0.1 - - [14/Jul/2021 00:21:22] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-14 00:21:34,431 INFO werkzeug Thread-24 : 127.0.0.1 - - [14/Jul/2021 00:21:34] "[32mPOST /update HTTP/1.1[0m" 302 -
+2021-07-14 00:21:34,448 INFO werkzeug Thread-25 : 127.0.0.1 - - [14/Jul/2021 00:21:34] "GET /blogging?name=Chris HTTP/1.1" 200 -
+2021-07-14 00:21:34,492 INFO werkzeug Thread-26 : 127.0.0.1 - - [14/Jul/2021 00:21:34] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-14 00:23:38,005 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\opy_A\\AppData\\Local\\Programs\\Python\\Python39\\lab8_ajisegiri_opeyemi\\testing_rand.py', reloading
+2021-07-14 00:23:38,159 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-14 00:24:16,650 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\opy_A\\AppData\\Local\\Programs\\Python\\Python39\\lab8_ajisegiri_opeyemi\\testing_rand.py', reloading
+2021-07-14 00:24:16,822 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-14 00:24:57,224 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\opy_A\\AppData\\Local\\Programs\\Python\\Python39\\lab8_ajisegiri_opeyemi\\testing_rand.py', reloading
+2021-07-14 00:24:57,348 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-14 00:25:54,871 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\opy_A\\AppData\\Local\\Programs\\Python\\Python39\\lab8_ajisegiri_opeyemi\\testing_rand.py', reloading
+2021-07-14 00:25:55,005 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-14 00:27:15,205 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\opy_A\\AppData\\Local\\Programs\\Python\\Python39\\lab8_ajisegiri_opeyemi\\testing_rand.py', reloading
+2021-07-14 00:27:15,322 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-14 00:27:54,572 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\opy_A\\AppData\\Local\\Programs\\Python\\Python39\\lab8_ajisegiri_opeyemi\\testing_rand.py', reloading
+2021-07-14 00:27:54,750 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-14 00:28:16,171 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\opy_A\\AppData\\Local\\Programs\\Python\\Python39\\lab8_ajisegiri_opeyemi\\testing_rand.py', reloading
+2021-07-14 00:28:16,359 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-14 00:30:40,713 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\opy_A\\AppData\\Local\\Programs\\Python\\Python39\\lab8_ajisegiri_opeyemi\\testing_rand.py', reloading
+2021-07-14 00:30:40,854 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-14 00:31:06,547 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\opy_A\\AppData\\Local\\Programs\\Python\\Python39\\lab8_ajisegiri_opeyemi\\testing_rand.py', reloading
+2021-07-14 00:31:06,696 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-14 00:31:54,216 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\opy_A\\AppData\\Local\\Programs\\Python\\Python39\\lab8_ajisegiri_opeyemi\\testing_rand.py', reloading
+2021-07-14 00:31:54,355 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-14 00:32:19,509 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\opy_A\\AppData\\Local\\Programs\\Python\\Python39\\lab8_ajisegiri_opeyemi\\testing_rand.py', reloading
+2021-07-14 00:32:19,649 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-14 00:33:11,901 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\opy_A\\AppData\\Local\\Programs\\Python\\Python39\\lab8_ajisegiri_opeyemi\\testing_rand.py', reloading
+2021-07-14 00:33:12,035 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-14 00:34:18,362 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\opy_A\\AppData\\Local\\Programs\\Python\\Python39\\lab8_ajisegiri_opeyemi\\testing_rand.py', reloading
+2021-07-14 00:34:18,502 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-14 04:03:45,848 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\opy_A\\AppData\\Local\\Programs\\Python\\Python39\\lab8_ajisegiri_opeyemi\\testing_rand.py', reloading
+2021-07-14 04:03:46,070 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-14 04:04:40,500 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\opy_A\\AppData\\Local\\Programs\\Python\\Python39\\lab8_ajisegiri_opeyemi\\testing_rand.py', reloading
+2021-07-14 04:04:40,615 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-14 04:05:50,888 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\opy_A\\AppData\\Local\\Programs\\Python\\Python39\\lab8_ajisegiri_opeyemi\\testing_rand.py', reloading
+2021-07-14 04:05:51,048 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-14 04:06:19,034 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\opy_A\\AppData\\Local\\Programs\\Python\\Python39\\lab8_ajisegiri_opeyemi\\testing_rand.py', reloading
+2021-07-14 04:06:19,171 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-14 04:15:41,024 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\opy_A\\AppData\\Local\\Programs\\Python\\Python39\\lab8_ajisegiri_opeyemi\\testing_rand.py', reloading
+2021-07-14 04:15:41,196 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-14 04:15:46,732 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\opy_A\\AppData\\Local\\Programs\\Python\\Python39\\lab8_ajisegiri_opeyemi\\testing_rand.py', reloading
+2021-07-14 04:15:46,873 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-14 04:16:12,202 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\opy_A\\AppData\\Local\\Programs\\Python\\Python39\\lab8_ajisegiri_opeyemi\\testing_rand.py', reloading
+2021-07-14 04:16:12,383 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-14 04:16:40,146 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\opy_A\\AppData\\Local\\Programs\\Python\\Python39\\lab8_ajisegiri_opeyemi\\testing_rand.py', reloading
+2021-07-14 04:16:40,314 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-14 04:18:46,230 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\opy_A\\AppData\\Local\\Programs\\Python\\Python39\\lab8_ajisegiri_opeyemi\\testing_rand.py', reloading
+2021-07-14 04:18:46,348 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-14 04:19:11,818 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\opy_A\\AppData\\Local\\Programs\\Python\\Python39\\lab8_ajisegiri_opeyemi\\testing_rand.py', reloading
+2021-07-14 04:19:11,962 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-14 04:19:18,017 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\opy_A\\AppData\\Local\\Programs\\Python\\Python39\\lab8_ajisegiri_opeyemi\\testing_rand.py', reloading
+2021-07-14 04:19:18,138 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-14 04:19:37,415 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\opy_A\\AppData\\Local\\Programs\\Python\\Python39\\lab8_ajisegiri_opeyemi\\testing_rand.py', reloading
+2021-07-14 04:19:37,534 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-14 04:19:54,265 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\opy_A\\AppData\\Local\\Programs\\Python\\Python39\\lab8_ajisegiri_opeyemi\\testing_rand.py', reloading
+2021-07-14 04:19:54,405 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-14 04:20:29,701 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\opy_A\\AppData\\Local\\Programs\\Python\\Python39\\lab8_ajisegiri_opeyemi\\testing_rand.py', reloading
+2021-07-14 04:20:29,849 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-14 04:20:38,132 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\opy_A\\AppData\\Local\\Programs\\Python\\Python39\\lab8_ajisegiri_opeyemi\\testing_rand.py', reloading
+2021-07-14 04:20:38,262 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-14 04:21:40,861 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\opy_A\\AppData\\Local\\Programs\\Python\\Python39\\lab8_ajisegiri_opeyemi\\testing_rand.py', reloading
+2021-07-14 04:21:40,993 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-14 04:23:49,875 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\opy_A\\AppData\\Local\\Programs\\Python\\Python39\\lab8_ajisegiri_opeyemi\\testing_rand.py', reloading
+2021-07-14 04:23:50,442 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-14 04:24:37,450 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\opy_A\\AppData\\Local\\Programs\\Python\\Python39\\lab8_ajisegiri_opeyemi\\lab8_ajisegiri_opeyemi.py', reloading
+2021-07-14 04:24:37,583 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-14 04:24:49,963 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\opy_A\\AppData\\Local\\Programs\\Python\\Python39\\lab8_ajisegiri_opeyemi\\lab8_ajisegiri_opeyemi.py', reloading
+2021-07-14 04:24:50,066 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-14 04:25:06,722 WARNING lab8_ajisegiri_opeyemi Thread-3 : Update action attempt without valid credentials
+2021-07-14 04:25:06,737 INFO werkzeug Thread-3 : 127.0.0.1 - - [14/Jul/2021 04:25:06] "[32mGET /update HTTP/1.1[0m" 302 -
+2021-07-14 04:25:06,788 INFO werkzeug Thread-4 : 127.0.0.1 - - [14/Jul/2021 04:25:06] "GET /login HTTP/1.1" 200 -
+2021-07-14 04:25:07,603 INFO werkzeug Thread-5 : 127.0.0.1 - - [14/Jul/2021 04:25:07] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-14 04:25:11,004 INFO werkzeug Thread-6 : 127.0.0.1 - - [14/Jul/2021 04:25:11] "GET / HTTP/1.1" 200 -
+2021-07-14 04:25:11,094 INFO werkzeug Thread-7 : 127.0.0.1 - - [14/Jul/2021 04:25:11] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-14 04:25:11,292 INFO werkzeug Thread-8 : 127.0.0.1 - - [14/Jul/2021 04:25:11] "[36mGET /static/img/background.jpg HTTP/1.1[0m" 304 -
+2021-07-14 04:25:12,613 INFO werkzeug Thread-9 : 127.0.0.1 - - [14/Jul/2021 04:25:12] "GET /register HTTP/1.1" 200 -
+2021-07-14 04:25:12,671 INFO werkzeug Thread-10 : 127.0.0.1 - - [14/Jul/2021 04:25:12] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-14 04:25:42,327 INFO werkzeug Thread-11 : 127.0.0.1 - - [14/Jul/2021 04:25:42] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-07-14 04:25:42,473 INFO werkzeug Thread-13 : 127.0.0.1 - - [14/Jul/2021 04:25:42] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-07-14 04:25:42,473 INFO werkzeug Thread-12 : 127.0.0.1 - - [14/Jul/2021 04:25:42] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-07-14 04:25:42,497 INFO werkzeug Thread-14 : 127.0.0.1 - - [14/Jul/2021 04:25:42] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-07-14 04:25:42,599 INFO werkzeug Thread-15 : 127.0.0.1 - - [14/Jul/2021 04:25:42] "GET /register?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-07-14 04:25:42,852 INFO werkzeug Thread-16 : 127.0.0.1 - - [14/Jul/2021 04:25:42] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-07-14 04:26:30,392 INFO werkzeug Thread-17 : 127.0.0.1 - - [14/Jul/2021 04:26:30] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-07-14 04:26:30,452 INFO werkzeug Thread-18 : 127.0.0.1 - - [14/Jul/2021 04:26:30] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-07-14 04:26:30,457 INFO werkzeug Thread-19 : 127.0.0.1 - - [14/Jul/2021 04:26:30] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-07-14 04:26:30,473 INFO werkzeug Thread-20 : 127.0.0.1 - - [14/Jul/2021 04:26:30] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-07-14 04:26:30,496 INFO werkzeug Thread-21 : 127.0.0.1 - - [14/Jul/2021 04:26:30] "GET /register?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-07-14 04:26:30,543 INFO werkzeug Thread-22 : 127.0.0.1 - - [14/Jul/2021 04:26:30] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-07-14 04:26:38,108 INFO werkzeug Thread-24 : 127.0.0.1 - - [14/Jul/2021 04:26:38] "GET /register HTTP/1.1" 200 -
+2021-07-14 04:26:38,188 INFO werkzeug Thread-23 : 127.0.0.1 - - [14/Jul/2021 04:26:38] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-14 04:27:27,483 INFO werkzeug Thread-25 : 127.0.0.1 - - [14/Jul/2021 04:27:27] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-07-14 04:27:27,564 INFO werkzeug Thread-26 : 127.0.0.1 - - [14/Jul/2021 04:27:27] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-07-14 04:27:27,564 INFO werkzeug Thread-27 : 127.0.0.1 - - [14/Jul/2021 04:27:27] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-07-14 04:27:27,597 INFO werkzeug Thread-28 : 127.0.0.1 - - [14/Jul/2021 04:27:27] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-07-14 04:27:27,624 INFO werkzeug Thread-29 : 127.0.0.1 - - [14/Jul/2021 04:27:27] "GET /register?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-07-14 04:27:27,713 INFO werkzeug Thread-30 : 127.0.0.1 - - [14/Jul/2021 04:27:27] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-07-14 04:27:59,339 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-14 04:28:03,544 INFO werkzeug Thread-4 : 127.0.0.1 - - [14/Jul/2021 04:28:03] "GET /register HTTP/1.1" 200 -
+2021-07-14 04:28:03,879 INFO werkzeug Thread-3 : 127.0.0.1 - - [14/Jul/2021 04:28:03] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-14 04:28:26,908 INFO werkzeug Thread-5 : 127.0.0.1 - - [14/Jul/2021 04:28:26] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-07-14 04:28:26,961 INFO werkzeug Thread-6 : 127.0.0.1 - - [14/Jul/2021 04:28:26] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-07-14 04:28:26,971 INFO werkzeug Thread-7 : 127.0.0.1 - - [14/Jul/2021 04:28:26] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-07-14 04:28:26,993 INFO werkzeug Thread-8 : 127.0.0.1 - - [14/Jul/2021 04:28:26] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-07-14 04:28:27,015 INFO werkzeug Thread-9 : 127.0.0.1 - - [14/Jul/2021 04:28:27] "GET /register?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-07-14 04:28:27,121 INFO werkzeug Thread-10 : 127.0.0.1 - - [14/Jul/2021 04:28:27] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-07-14 04:32:09,578 INFO werkzeug Thread-11 : 127.0.0.1 - - [14/Jul/2021 04:32:09] "[32mPOST /register HTTP/1.1[0m" 302 -
+2021-07-14 04:32:09,651 INFO werkzeug Thread-13 : 127.0.0.1 - - [14/Jul/2021 04:32:09] "GET /blogging?name=Example HTTP/1.1" 200 -
+2021-07-14 04:32:09,697 INFO werkzeug Thread-14 : 127.0.0.1 - - [14/Jul/2021 04:32:09] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-14 04:32:15,530 INFO lab8_ajisegiri_opeyemi Thread-15 : Password Update page rendered
+2021-07-14 04:32:15,614 INFO werkzeug Thread-15 : 127.0.0.1 - - [14/Jul/2021 04:32:15] "GET /update HTTP/1.1" 200 -
+2021-07-14 04:32:15,724 INFO werkzeug Thread-16 : 127.0.0.1 - - [14/Jul/2021 04:32:15] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-14 04:32:37,228 INFO werkzeug Thread-17 : 127.0.0.1 - - [14/Jul/2021 04:32:37] "[35m[1mPOST /update HTTP/1.1[0m" 500 -
+2021-07-14 04:32:37,349 INFO werkzeug Thread-18 : 127.0.0.1 - - [14/Jul/2021 04:32:37] "GET /update?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-07-14 04:32:37,350 INFO werkzeug Thread-19 : 127.0.0.1 - - [14/Jul/2021 04:32:37] "GET /update?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-07-14 04:32:37,369 INFO werkzeug Thread-20 : 127.0.0.1 - - [14/Jul/2021 04:32:37] "GET /update?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-07-14 04:32:37,487 INFO werkzeug Thread-21 : 127.0.0.1 - - [14/Jul/2021 04:32:37] "GET /update?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-07-14 04:32:37,634 INFO werkzeug Thread-22 : 127.0.0.1 - - [14/Jul/2021 04:32:37] "GET /update?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-07-14 04:34:49,171 INFO lab8_ajisegiri_opeyemi Thread-23 : Password Update page rendered
+2021-07-14 04:34:49,171 INFO werkzeug Thread-23 : 127.0.0.1 - - [14/Jul/2021 04:34:49] "GET /update HTTP/1.1" 200 -
+2021-07-14 04:35:00,104 WARNING lab8_ajisegiri_opeyemi Thread-24 : Sign In Attempt without Valid Credentials
+2021-07-14 04:35:00,105 INFO werkzeug Thread-24 : 127.0.0.1 - - [14/Jul/2021 04:35:00] "[32mGET / HTTP/1.1[0m" 302 -
+2021-07-14 04:35:00,142 INFO werkzeug Thread-25 : 127.0.0.1 - - [14/Jul/2021 04:35:00] "GET /blogging?name=Example HTTP/1.1" 200 -
+2021-07-14 04:35:00,197 INFO werkzeug Thread-26 : 127.0.0.1 - - [14/Jul/2021 04:35:00] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-14 04:35:01,579 INFO lab8_ajisegiri_opeyemi Thread-27 : Password Update page rendered
+2021-07-14 04:35:01,582 INFO werkzeug Thread-27 : 127.0.0.1 - - [14/Jul/2021 04:35:01] "GET /update HTTP/1.1" 200 -
+2021-07-14 04:35:01,669 INFO werkzeug Thread-28 : 127.0.0.1 - - [14/Jul/2021 04:35:01] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-14 04:35:14,920 INFO werkzeug Thread-29 : 127.0.0.1 - - [14/Jul/2021 04:35:14] "[32mPOST /update HTTP/1.1[0m" 302 -
+2021-07-14 04:35:14,928 INFO werkzeug Thread-30 : 127.0.0.1 - - [14/Jul/2021 04:35:14] "GET /blogging?name=Example HTTP/1.1" 200 -
+2021-07-14 04:35:15,052 INFO werkzeug Thread-31 : 127.0.0.1 - - [14/Jul/2021 04:35:15] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-14 04:38:52,244 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\opy_A\\AppData\\Local\\Programs\\Python\\Python39\\lab8_ajisegiri_opeyemi\\lab8_ajisegiri_opeyemi.py', reloading
+2021-07-14 04:38:52,552 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-14 04:38:57,585 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-14 04:39:02,176 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-14 04:39:04,234 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-14 04:40:36,503 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-14 04:40:40,449 INFO werkzeug Thread-4 : 127.0.0.1 - - [14/Jul/2021 04:40:40] "GET / HTTP/1.1" 200 -
+2021-07-14 04:40:41,344 INFO werkzeug Thread-3 : 127.0.0.1 - - [14/Jul/2021 04:40:41] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-14 04:40:41,541 INFO werkzeug Thread-5 : 127.0.0.1 - - [14/Jul/2021 04:40:41] "[36mGET /static/img/background.jpg HTTP/1.1[0m" 304 -
+2021-07-14 04:40:44,080 INFO werkzeug Thread-6 : 127.0.0.1 - - [14/Jul/2021 04:40:44] "GET /register HTTP/1.1" 200 -
+2021-07-14 04:40:44,154 INFO werkzeug Thread-7 : 127.0.0.1 - - [14/Jul/2021 04:40:44] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-14 04:41:10,399 INFO werkzeug Thread-8 : 127.0.0.1 - - [14/Jul/2021 04:41:10] "[32mPOST /register HTTP/1.1[0m" 302 -
+2021-07-14 04:41:10,525 INFO werkzeug Thread-9 : 127.0.0.1 - - [14/Jul/2021 04:41:10] "GET /blogging?name=Example HTTP/1.1" 200 -
+2021-07-14 04:41:10,575 INFO werkzeug Thread-10 : 127.0.0.1 - - [14/Jul/2021 04:41:10] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-14 04:41:34,662 INFO lab8_ajisegiri_opeyemi Thread-11 : Password Update page rendered
+2021-07-14 04:41:34,685 INFO werkzeug Thread-11 : 127.0.0.1 - - [14/Jul/2021 04:41:34] "GET /update HTTP/1.1" 200 -
+2021-07-14 04:41:34,791 INFO werkzeug Thread-12 : 127.0.0.1 - - [14/Jul/2021 04:41:34] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-14 04:41:50,544 INFO lab8_ajisegiri_opeyemi Thread-13 : Password Update page rendered
+2021-07-14 04:41:50,546 INFO werkzeug Thread-13 : 127.0.0.1 - - [14/Jul/2021 04:41:50] "POST /update HTTP/1.1" 200 -
+2021-07-14 04:41:50,590 INFO werkzeug Thread-14 : 127.0.0.1 - - [14/Jul/2021 04:41:50] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-14 04:45:07,844 WARNING lab8_ajisegiri_opeyemi Thread-15 : Sign In Attempt without Valid Credentials
+2021-07-14 04:45:07,846 INFO werkzeug Thread-15 : 127.0.0.1 - - [14/Jul/2021 04:45:07] "[32mGET / HTTP/1.1[0m" 302 -
+2021-07-14 04:45:07,883 INFO werkzeug Thread-16 : 127.0.0.1 - - [14/Jul/2021 04:45:07] "GET /blogging?name=Example HTTP/1.1" 200 -
+2021-07-14 04:45:08,198 INFO werkzeug Thread-17 : 127.0.0.1 - - [14/Jul/2021 04:45:08] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-14 04:45:20,610 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\opy_A\\AppData\\Local\\Programs\\Python\\Python39\\lab8_ajisegiri_opeyemi\\lab8_ajisegiri_opeyemi.py', reloading
+2021-07-14 04:45:21,071 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-14 04:45:32,728 WARNING lab8_ajisegiri_opeyemi Thread-4 : Update action attempt without valid credentials
+2021-07-14 04:45:32,732 INFO werkzeug Thread-4 : 127.0.0.1 - - [14/Jul/2021 04:45:32] "[32mGET /update HTTP/1.1[0m" 302 -
+2021-07-14 04:45:32,789 INFO werkzeug Thread-3 : 127.0.0.1 - - [14/Jul/2021 04:45:32] "GET /login HTTP/1.1" 200 -
+2021-07-14 04:45:33,244 INFO werkzeug Thread-5 : 127.0.0.1 - - [14/Jul/2021 04:45:33] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-14 04:45:35,995 INFO werkzeug Thread-6 : 127.0.0.1 - - [14/Jul/2021 04:45:35] "GET / HTTP/1.1" 200 -
+2021-07-14 04:45:36,167 INFO werkzeug Thread-7 : 127.0.0.1 - - [14/Jul/2021 04:45:36] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-14 04:45:36,215 INFO werkzeug Thread-8 : 127.0.0.1 - - [14/Jul/2021 04:45:36] "[36mGET /static/img/background.jpg HTTP/1.1[0m" 304 -
+2021-07-14 04:45:37,423 INFO werkzeug Thread-10 : 127.0.0.1 - - [14/Jul/2021 04:45:37] "GET /register HTTP/1.1" 200 -
+2021-07-14 04:45:37,511 INFO werkzeug Thread-9 : 127.0.0.1 - - [14/Jul/2021 04:45:37] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-14 04:46:08,440 INFO werkzeug Thread-11 : 127.0.0.1 - - [14/Jul/2021 04:46:08] "[32mPOST /register HTTP/1.1[0m" 302 -
+2021-07-14 04:46:08,464 INFO werkzeug Thread-12 : 127.0.0.1 - - [14/Jul/2021 04:46:08] "GET /blogging?name=Testing HTTP/1.1" 200 -
+2021-07-14 04:46:08,528 INFO werkzeug Thread-13 : 127.0.0.1 - - [14/Jul/2021 04:46:08] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-14 04:46:11,944 INFO lab8_ajisegiri_opeyemi Thread-14 : Password Update page rendered
+2021-07-14 04:46:11,963 INFO werkzeug Thread-14 : 127.0.0.1 - - [14/Jul/2021 04:46:11] "GET /update HTTP/1.1" 200 -
+2021-07-14 04:46:12,005 INFO werkzeug Thread-15 : 127.0.0.1 - - [14/Jul/2021 04:46:12] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-14 04:46:26,686 INFO lab8_ajisegiri_opeyemi Thread-16 : Password Update page rendered
+2021-07-14 04:46:26,689 INFO werkzeug Thread-16 : 127.0.0.1 - - [14/Jul/2021 04:46:26] "POST /update HTTP/1.1" 200 -
+2021-07-14 04:46:26,796 INFO werkzeug Thread-17 : 127.0.0.1 - - [14/Jul/2021 04:46:26] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -
+2021-07-14 04:46:48,952 WARNING lab8_ajisegiri_opeyemi Thread-18 : Sign In Attempt without Valid Credentials
+2021-07-14 04:46:48,953 INFO werkzeug Thread-18 : 127.0.0.1 - - [14/Jul/2021 04:46:48] "[32mGET / HTTP/1.1[0m" 302 -
+2021-07-14 04:46:48,960 INFO werkzeug Thread-19 : 127.0.0.1 - - [14/Jul/2021 04:46:48] "GET /blogging?name=Testing HTTP/1.1" 200 -
+2021-07-14 04:46:49,132 INFO werkzeug Thread-20 : 127.0.0.1 - - [14/Jul/2021 04:46:49] "[36mGET /static/CSS/StyleSheet.css HTTP/1.1[0m" 304 -

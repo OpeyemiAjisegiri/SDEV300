@@ -1,0 +1,382 @@
+/* Global */
+/*
+*{
+  margin: 0; 
+  padding:0;
+  box-sizing: border-box; 
+  font-family: 'Poppins', sans-serif;  
+}*/
+body,
+html {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+h2{
+  margin-bottom: .5rem;
+  font-weight: 500;
+  line-height: 1.2;
+	
+}
+/*  Navbar */
+.navbar {
+    text-transform: uppercase; 
+}
+   /*  Navbar Brand -- Logo */
+.navbar-dark .navbar-brand{
+	font-weight: 400;
+	font-size: 1.6em;
+	color: #333;
+}
+   /*  Navbar Menu -- Menu Icon */
+.navbar .nav-menu {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+#bar1, #bar2, #bar3 {
+  width: 40px;
+  height: 6px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+  border-radius: 20px;
+  /*opacity: 0.6;*/
+}
+#bar1.change{
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-8px, 6px);
+}
+#bar2.change{
+  opacity: 0;
+}
+#bar3.change{
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-10px, -10px);
+}
+
+/* Masthead  (Landing Page)  */
+.masthead {
+	background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url(../Images/Main-Test-Pic-Unsplash.jpg);
+	/*padding: 6.55%;*/ /*9%;*/ 
+	height: 96.2%;
+	background-position: center center;
+	background-repeat: no-repeat;  
+	background-size: cover;
+}
+.header  {
+	min-height: 10rem;
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+.header-content {
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  font-family: lobster;
+  font-size: 6rem;
+} 
+.header-content-text {
+	color: #447;
+	text-shadow: #999 0 2px;
+	padding-bottom: 2rem;
+	font-size: 2.5em;
+}
+
+
+.content {
+	padding: 7em;
+	text-align: center;
+}
+
+
+/* Service */
+#service .row {
+	color: #3ff;
+	/*display: flex;*/
+	align-items: center;
+	padding-left: 4rem;
+	padding-right: 4rem;
+	/*padding-top: 3.5rem;*/
+}
+.text-faded {
+	color: #3ff;
+}
+.service-icon {
+  background-color: #fff;
+  color: #1D809F;
+  height: /*7rem*/ 50%x;
+  width: /*7rem*/ 50%;
+  display: inline-block;
+  line-height: 7.5rem;
+  font-size: 2.25rem;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons */
+.btn-info {
+  background-color: #1D809F !important;
+  border-color: #1D809F !important;
+  color: #fff !important;
+  padding: 1.25rem 2.5rem;
+  text-align: center;
+  text-decoration: none;
+  /* border-radius: 60px; */
+}
+.btn-info:hover,.btn-info:focus, .btn-info:active {
+  background-color: #155d74 !important;
+  border-color: #155d74 !important;
+}
+.btn-light {
+  background-color: grey;
+  border-color: grey;  
+  padding: 1.25rem 2.5rem;
+  text-align: center; 
+  text-decoration:  none; 
+  /* border-radius: 60px; */
+}
+.btn-light:hover,.btn-light:focus, .btn-light:active {
+  background-color: /*#fff*/ white;
+  border-color: /*#fff*/ white;
+}
+.btn-dark {
+  background-color: #000 ;
+  border-color: #000;
+  color: #fff ;
+  padding: 1.25rem 2.5rem;
+  text-align: center;
+  text-decoration: none;
+  /* border-radius: 60px;  */
+}
+.btn-dark:hover, .btn-dark:focus, .btn-dark:active {
+  background-color: #33f;
+  border-color: #33f;
+}
+
+/*  Invitation */
+.invitation {
+  text-align: center;
+  /*background-color: #333;  use for service...  */
+  background: linear-gradient(45deg, rgba(255, 255, 200, 0.1) 50%, rgba(255, 255, 255, 0.1) 100%), url("../Images/Second-Test-Pic.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 8em;
+}
+.invitation h2 {
+  /*min-height: 20rem;*/
+  font-size: 2rem;
+  padding-top: 12rem;
+  padding-bottom: 2rem;
+  font: sans-serif;
+}
+
+
+
+/* Contact */
+
+/*#social-contact h2 {
+  margin-top: 0;
+  color: #443;
+  margin-bottom: 25px;
+}*/
+.fa-hashtag {
+  color: #dd4b39;
+}
+.contact{
+	text-align: center;
+}
+.contact-header {
+  margin-top: 0;
+  color: #443;
+  margin-bottom: 25px;
+  padding-top: 4rem;
+}
+.social-contact-list {
+  margin-bottom: 0;
+  padding: 10px;
+}
+.list-inline li a {
+  font-size: 40px;
+  line-height: 60px;
+  display: block;
+  width: 60px;
+  height: 60px;
+  color: white;
+  border-radius: 100%;  
+  justify-content: center;
+}
+.social-twitter a {
+  background-color: #1da1f2;
+}
+.social-twitter a:hover {
+  background-color: #0d95e8;
+}
+.social-facebook a {
+  background-color: #3b5998;
+}
+.social-facebook a:hover {
+  background-color: #344e86;
+}
+.social-google-plus a {
+  background-color: #dd4b39;
+}
+.social-google-plus a:hover {
+  background-color: #d73925;
+}
+
+
+/* Scroll to top */
+.scroll-to-top {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	display: flex;
+	width: 60px;
+	height: 60px;
+	color:  white;
+	/*background: rgba(52, 58, 64, 0.5);*/
+	background-color: #333;
+	align-items: center;
+	justify-content: center;
+	line-height: 100%;
+	opacity: 0.6;
+}
+.scroll-to-top:focus, .scroll-to-top:hover {
+  color: white;
+}
+
+.scroll-to-top:hover {
+  background: /*#343a40*/ rgba(52, 58, 64, 0.5);
+}
+
+.scroll-to-top i {
+  font-weight: 800;
+}
+
+/* Footer */
+.footer {
+	text-align: center;
+	color: #fff;
+	background-color: #000;
+	height: 20px;
+}
+
+/* Side Menu */
+#sidebar-menu {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  /*left: 0;*/
+  right: 0;/*27.5%;*/ /* Should be '0' dont' understand the error why '0' isnt working properly here. Seems "transform: translateX(250px);" is the error.*/
+  width: 0;
+  height: 100%;
+  transition: 0.4s;/*all 0.4s ease 0s;*/
+  /*transform: translateX(250px);*/
+  background: #000;
+  /* background: #1D809F;*/
+  opacity: 0.8;
+  /*border-left: 1px solid rgba(255, 255, 255, 0.1);*/
+}
+#sidebar-menu.active {
+	width: 25%;  /*formerly width: 100%*/
+}
+.sidebar-nav {
+  position: relative; 
+  top: 20%; /*25%;*/
+  width: 100%; 
+ /* margin-top: 30%;  Seems to be pushing the list down as it fades in*/
+  text-align: center;
+  list-style: none;
+}
+.sidebar-nav li.sidebar-nav-item a {
+  display: inline-flex;
+  text-decoration: none;
+  color: #ff4;
+  padding: 15px;
+  font-size: xx-large;
+}
+
+
+/*  Media Queries  */
+@media (min-width: 992px){
+	/*.masthead{
+		height: 100vh;
+	} 
+	.header-content {
+	  padding-top: 1rem;
+	  padding-bottom: 1.5rem;
+	  font-size: 2rem;
+	}
+	.header-content-text {
+		text-shadow: #333 0 4px;
+		padding-bottom: 2rem;
+		font-size: 1em;
+	}
+	.content h2 {
+		font-family: sans-serif;
+		font-size: 2.6rem;
+		color: #443;
+		padding-bottom: 2rem;
+	}*/
+	#services .row {
+		display: inline-flex;
+		align-content: center;
+	}
+}
+@media (max-width: 992px){
+	.scroll-to-top {
+		width: 30px; 
+		height: 30px;
+		bottom: 30px;
+	}
+}
+@media (max-width: 576px){
+	.navbar-dark .navbar-brand {
+    font-weight: 100;
+    font-size: 1em;
+    color: #333;
+	}
+	#bar1, #bar2, #bar3 {
+    width: 20px;
+    height: 3px;
+    margin: 3px 0;
+    border-radius: 20px;
+    opacity: 0.9;
+	}
+	#bar1.change {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-8px, 6px);
+	}
+	#bar3.change {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-2px, -1px);
+	}
+	/*.header  {
+	min-height: 10rem;
+	position: relative;
+	text-align: center;
+	width: 100%;
+	}  */
+	.header-content {
+	  padding-top: 3rem;
+	  padding-bottom: 1rem;
+	  font-family: lobster;
+	  font-size: 3.2rem;
+	} 
+	.header-content-text {
+    text-shadow: 0 0 0;
+    padding-bottom: 1rem;
+    font-size: 1.6em;
+	}
+	.btn-info {
+    padding: 0.5rem 0.5rem;
+	}
+	.btn-light {
+    padding: 1rem 2rem;
+	}
+	.btn-dark {
+    padding: 1rem 2rem;
+	}
+}

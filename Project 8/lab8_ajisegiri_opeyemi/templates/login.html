@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <!-- Required meta tags -->
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Trying out my very first bootstrap template." />
+	<meta name="author" content="" />
+	<title>Ajisegiri: Lab7 </title> 
+	<link href="../static/CSS/StyleSheet.css" rel="stylesheet" />
+ </head>
+ <body id="page-top" data-spy="scroll" data-target="#navMenu" data-offset="20">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top">
+	<a class="navbar navbar-brand" href="#page-top"><i class="fas fa-globe"></i>LOGO</a>
+	<button class="navbar-toggler navbar-toggler-right bg-dark" type="button" data-toggle="collapse" data-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">Menu<a>&equiv;</a></button>
+	<div class="collapse navbar-collapse" id="navMenu">
+	  <ul class="navbar-nav ml-auto float-right">  
+		<li class="nav-item mx-auto text-center"><a class="text-white p-2" href="/">Home</a></li>
+		<li class="nav-item mx-auto text-center"><a class="text-white p-2" href="/about">About</a></li>
+		<li class="nav-item mx-auto text-center"><a class="text-white p-2" href="/idea">Ideas</a></li>
+		<li class="nav-item mx-auto text-center"><a class="text-white p-2" href="/contact">Contact</a></li>
+	  </ul>
+	 </div>
+   </nav>
+   <!-- Register -->
+   <section class="content-section bg-info" id="contact">
+      <div class="container">
+	     <!-- Register Section Heading-->
+         <h2 class="content-section-heading text-center text-uppercase text-secondary mb-4 pt-4">Sign In</h2><hr>
+		{% with messages = get_flashed_messages() %}
+		   {% if messages %}
+			 <ul class="flashes">
+				{% for message in messages %}
+				 <div class="message_flash">{{ message }}</div>
+				{% endfor %}
+			</ul>
+		  {% endif %}
+		 {% endwith %}
+		 <!-- Register section form -->
+		 <div class="row">
+	       <div class="col-lg-10 mx-auto text-white"> 
+			  <form id="authentication" name="authentication" action="" method="post">
+			     <div class="form-row align-items-center">
+				    <div class="col-12 mb-4 p-4">
+					  <input type="email" class="form-control" id="validationDefault03" placeholder="email@example.com" name="email" required>
+					  <p class="help-block text-danger"></p>
+					</div>
+					<div class="col-md-12 mb-4 p-4">
+					  <input type="password" class="form-control" id="validationDefault04" placeholder="############" name="password" required>
+					  <p class="help-block text-danger"></p>
+					</div>
+				    <!-- <div id="success"></div> -->  
+                    <div class="form-group text-center"><button class="btn btn-primary btn-xl border" id="signin" type="submit">Sign In</button></div>	  
+				 </div>
+			  </form>
+		   </div>
+		 </div>
+	  </div>
+   </section>
+   <!-- Footer -->
+   <footer class="copyright py-4 bg-dark text-info text-center text-white" id="footer">
+     <div class="container"><small>Copyright © Ajisegiri</small></div>
+   </footer>     
+   <!-- Optional JavaScript -->
+   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+ </body>
+</html>
